@@ -26,7 +26,6 @@ html,body{
 }
 
 .content{
-    /* max-width: 1000px; */
     min-width: 300px;
     height: 685px;
 }
@@ -491,3 +490,12 @@ input:focus{
 .imgs-block a{
     margin-right: 10px;
 }
+
+/* @media  (max-width: 1680px){
+    .header-block img{
+        width: 1650px;
+        height: 520px;
+        background-color: black;
+       
+    }
+} */
