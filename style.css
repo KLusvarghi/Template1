@@ -39,9 +39,12 @@ nav{
     background-color: rgb(246, 249, 252);
 }
 
+
+
 .brand{
     font-size: 22px;
     cursor: pointer;
+
 }
 
 nav ul{
@@ -95,7 +98,7 @@ nav li a:hover{
     /* margin: 10% 0% 0% 34%; */
     /* margin: 10% 0% 0% 330px; */
     display: flex;
-    justify-content:;
+    /* justify-content:; */
     align-items: flex-start;
     vertical-align: baseline;
 
@@ -542,11 +545,14 @@ input:focus{
     margin-right: 10px;
 }
 
+
+
+
 @media  (max-width: 1680px){
 
 
     .content{
-        height: 630px;
+        height: 580px;
     }
 
     .header-all-text{
@@ -556,24 +562,52 @@ input:focus{
     .header-text h1{
         font-size: 52px;
     }
+
+    .header-text {
+        width: 500px;
+        margin: 5px 0px 9px calc((100% - 1370px) * 0.5);
+    }
+
+    .header-text a {
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-right: 15px;
+        padding: 6px 25px;
+    }
     
     .header-text p{
-        font-size: 25px;    
+
+        font-size: 25px;   
+        line-height: 1; 
     }
 
 
-    .header-block img{
-        width: 1750px;
-        height: 550px;       
+    .img-size{
+        height:500px;
+        background-color: black;
+
     }
-}
 
-@media (max-width: 1025px){
-
-
-    .content{
-        height: 440px;
+    
+    .header-img {
+        height:500px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
     }
+
+    footer .main .content {
+        height: 450px;
+        margin: 0 auto;
+    }
+
+    
+} 
+
+ /* @media (max-width: 1025px){
+
+
+    
 
     nav{
         width: 100%;
@@ -626,10 +660,29 @@ input:focus{
     }
 
 
-    .header-block img{
-        width: 1070px;
-        height: 360px;       
+    .header-block{
+        height: 240px;
     }
+
+    .content{
+        height: 240px;
+    }
+
+    .img-header{
+        height:200px;
+    }
+
+    .img-size{
+        height:200px;
+    }
+
+    .header-img{ 
+        height: 400px;
+        background-attachment: fixed;
+        background-position: top center ;
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
 
     .header-a a{
         font-size: 12px;
@@ -640,9 +693,7 @@ input:focus{
 
 
 
-    section .content{
-        height: 300px;
-    }
+    
 
     .items .objects{
         height: 900px;
@@ -736,4 +787,4 @@ input:focus{
     .footer-info p{
         font-size: 15PX;
     }
-}
+}   */
