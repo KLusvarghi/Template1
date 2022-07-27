@@ -48,7 +48,7 @@ nav{
 }
 
 nav ul{
-    display: flex;
+    display: flex;  
     flex-direction: row;
 }
 
